@@ -1,0 +1,34 @@
+.emptyBagHeader {
+display: none;
+}
+.emptyCart {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  justify-content: center;
+ margin-top:100px;
+    color: #333333;
+    
+}
+.shopText{
+     text-align: center;
+}
+ .amountCheck{
+font-weight: 700;
+ }
+
+ .emptyCart i {
+    font-size: 100px;
+    color: #bbbbbb;
+    margin-bottom: 20px;
+}
+
+.emptyButton{
+    padding: 10px 50px;
+    color: blue;
+    background-color: yellow;
+    font-weight: 600;
+    border: 1px solid yellow;
+    outline: none;
+    margin-top: 50px;
+}

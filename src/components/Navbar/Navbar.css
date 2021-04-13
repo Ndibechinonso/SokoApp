@@ -1,0 +1,90 @@
+body, html {
+    width: 100%;
+    overflow-x: hidden;
+}
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    max-width: 100vw;
+    align-content: center;
+    align-items: center;
+    padding: 20px 150px 30px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+ text-align: left;
+ margin-left: 30px;
+
+}
+.user h2{
+    padding: 0;
+    margin: 0;
+   
+}
+.user p{
+    padding: 0;
+    margin: 0;
+    color: #999999;
+    font-weight: 600;
+    
+}
+.navbar-link {
+    display: flex;
+}
+
+.navbar-links{
+    display: flex;
+gap: 50px;
+color: #999999;
+font-weight: 600;
+font-size: 18px;
+}
+.nav-icon{
+margin-right: 20px;
+}
+.first-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.first-link i {
+    font-size: 30px;
+    color: #999999;
+    border: 1px solid #dddddd;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #dddddd;
+}
+.search-div{
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    bottom: 20px;
+}
+.searchicon-div {
+    background-color: yellow;
+    display: inline;
+    padding: 10px;
+    justify-content: center;
+    border-bottom-right-radius: 5px;
+   border-top-right-radius: 5px;
+    
+}
+.search-div input {
+    padding: 13px;
+   border-bottom-left-radius: 5px;
+   border-top-left-radius: 5px;
+   border: none;
+   background-color: #dddddd;
+   width: 470px;
+   outline: none;
+}
+::placeholder{
+    font-size: 18px;
+    color: #aaaaaa;
+}
+

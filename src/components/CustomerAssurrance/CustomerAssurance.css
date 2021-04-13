@@ -1,0 +1,14 @@
+.qa{
+    display: flex;
+    background-color: #dddddd;
+    padding: 50px;
+   justify-content: center;
+   gap: 100px;
+ 
+}
+.qa > div {
+    display: flex;
+    flex-direction: column;
+    color: blue;
+    gap: 10px;
+}

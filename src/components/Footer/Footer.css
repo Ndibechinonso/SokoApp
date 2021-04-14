@@ -1,32 +1,58 @@
 .footer {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   gap: 20px;
-   padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
 }
-
-.userContainer{
-    display: flex;
-    justify-content: center;
+.userContainer {
+  display: flex;
+  justify-content: center;
 }
 .whatsappbtn {
-    color: white;
-    padding: 5px 10px;
-    background-color: green;
-    font-weight: 700;
-    border-radius: 5px;
- display: flex;
-align-items: center;
-display: inline;
+  color: white;
+  padding: 5px 10px;
+  background-color: green;
+  font-weight: 700;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  display: inline;
 }
 .whatsappbtn i {
-    font-size: 20px;
-    margin-right: 7px;
-    
+  font-size: 20px;
+  margin-right: 7px;
 }
-.btndiv{
+.btndiv {
+  display: flex;
+  justify-content: center;
+}
+.store {
+  text-align: center;
+}
+.respNavbar {
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  width: 100vw;
+  display: none;
+  font-weight: 500;
+  justify-content: space-evenly;
+  justify-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  z-index: 2;
+  color: #999999;
+}
+.respNavbar div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+@media only screen and (max-width: 800px){
+  .respNavbar{
     display: flex;
-    
-    justify-content: center;
+  }
 }

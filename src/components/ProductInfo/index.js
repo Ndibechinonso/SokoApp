@@ -16,7 +16,7 @@ function decrement() {
     return (
         <div className='productContainer'>
         <div className='productInfo'>
-            <div className='productImg'><img src={products[0].image}></img></div>
+            <div className='productImgDiv'><img src={products[0].image} className='productImg'></img></div>
             <div className='productDetails'>
             <div className='name'>{products[0].name}</div>
             <p className='text'>{props.text}</p>

@@ -1,7 +1,13 @@
 .topbar {
-    background-color: blue;
-    padding: 2px;
-    color: white;
-    padding-left: 150px;
-    text-align: left;
+  background-color: blue;
+  padding: 2px;
+  color: white;
+  padding-left: 150px;
+  text-align: left;
+}
+
+@media only screen and (max-width: 800px) {
+  .topbar {
+    display: none;
+  }
 }

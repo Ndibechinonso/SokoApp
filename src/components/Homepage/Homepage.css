@@ -1,15 +1,15 @@
 .fixedbar {
-    position: fixed;
-    display: flex;
-    bottom: 10px;
-    left: 10px;
-    gap: 10px;
+  position: fixed;
+  display: flex;
+  bottom: 10px;
+  left: 10px;
+  gap: 10px;
 }
 .fixedbar div {
-    border-radius: 5px;
-    padding: 7px 15px;
-    background-color: white;
+  border-radius: 5px;
+  padding: 7px 15px;
+  background-color: white;
 }
 .fixedbar i {
-    margin-right: 10px;
+  margin-right: 10px;
 }

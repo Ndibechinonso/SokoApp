@@ -1,14 +1,27 @@
-.qa{
-    display: flex;
-    background-color: #dddddd;
-    padding: 50px;
-   justify-content: center;
-   gap: 100px;
- 
+.qa {
+  display: flex;
+  flex-direction: row;
+  background-color: #dddddd;
+  padding: 50px;
+  justify-content: center;
+  gap: 100px;
 }
 .qa > div {
-    display: flex;
-    flex-direction: column;
-    color: blue;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: blue;
+  gap: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+  .qa {
+    padding: 50px 30%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .qa {
+    gap: 30px;
+  }
 }

@@ -1,0 +1,29 @@
+.order {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #dddddd;
+  width: 300px;
+  padding: 20px;
+}
+.orderSecondRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+.seller {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 800;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.bold {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.light {
+  font-weight: 500;
+}

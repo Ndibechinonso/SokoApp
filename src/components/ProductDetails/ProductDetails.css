@@ -1,12 +1,11 @@
-.categoryHeader{
-    font-size: 20px;
-    font-weight: 700;
-    margin-left: 40px;
+.categoryHeader {
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 40px;
 }
-.categoryHeaderDiv{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-margin-top: 10px;
-    
+.categoryHeaderDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
 }

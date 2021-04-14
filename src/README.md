@@ -1,1 +1,0 @@
-This project was built without Redux as it wasn't listed as part of the stacks to be used. The app was built responsive with some functionalities.
